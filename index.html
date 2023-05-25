@@ -49,6 +49,9 @@
       border-radius: 3px;
       cursor: pointer;
     }
+	error {
+		font-size: 16px;
+	}
   </style>
   <script>
     function redirectToMain() {
@@ -71,6 +74,8 @@
       <input type="password" id="password" placeholder="Password">
       <button type="button" onclick="redirectToMain()">Sign In</button>
     </form>
+	<div class="error"> Incorrect password or username. </b> 
+						forgot password? </div>
   </div>
 </body>
 </html>
