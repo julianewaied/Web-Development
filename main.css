@@ -1,0 +1,62 @@
+﻿body{
+    background-color: rgb(247, 247, 247);
+    background-image: url(https://worddio.com/wp-content/uploads/2021/06/bg.png);
+    background-repeat: no-repeat;
+    font-family: dubai;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: -70%;
+}
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #1566a8, #d0e5f0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .subtitle{
+    font-size: 20
+    px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #1566a8, #d0e5f0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .years-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 300px;
+    margin-top: 10px;
+  }
+  .card{
+    font-size: 30px;
+    font-weight: bold;
+    width: 98%;
+    height: 90%;
+    background-color: rgba(197, 200, 238, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .card:hover{
+    transform: scale(1.11);
+  }
+  #y2{
+    grid-row: 1;
+    grid-column: 2;
+  }
